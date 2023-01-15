@@ -1,0 +1,21 @@
+{
+  "name": "basic-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "source": "./index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "three": "^0.148.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  }
+}
