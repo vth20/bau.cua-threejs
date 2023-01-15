@@ -16,6 +16,8 @@
     "three": "^0.148.0"
   },
   "devDependencies": {
+    "cannon-es": "^0.20.0",
+    "dat.gui": "^0.7.9",
     "parcel": "^2.8.2"
   }
 }
