@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        margin: 0;
+				background: #333333;
+        font-family: Monospace;
+        font-size: 13px;
+        line-height: 24px;
+      }
+      a {
+				text-decoration: none;
+                color: #bbbbbb;
 
-<head>
-	<meta charset="UTF-8" />
-	<style>
-		body {
-			margin: 0;
-		}
-	</style>
-	<link rel="stylesheet" href="src/style.css">
-</head>
-<body>
-	<script type="module" src="src/index.js"></script>
-</body>
+      }
+      #info {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        pointer-events: none;
+        z-index: 1;
+      }
+    </style>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div id="info">
+      <a
+        href="https://github.com/vth20/bau_cua-ThreeJS"
+        target="_blank"
+        rel="noopener"
+        >Press "Enter" to vibrate the cube</a>
+    </div>
+    <script type="module" src="src/index.js"></script>
+  </body>
+</html>
